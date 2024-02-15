@@ -32,9 +32,9 @@ Comparing strategies:
 ## Strategy Comparison
 **Strategy.RANDOM** (Randomly plays valid moves):
 
-$
+$$
 {\color{green}█████████}{\color{red}██████████}{\color{yellow}█}
-$
+$$
 
 Wins: 234 (**47%**),
 Losses: 246 (49%),
@@ -42,9 +42,9 @@ Ties: 20 (4%)
 
 **Strategy.GREEDY** (Greedily maximizes score each turn):
 
-$
+$$
 {\color{green}████████████}{\color{red}███████}{\color{yellow}█}
-$
+$$
 
 Wins: 290 (**58%**),
 Losses: 188 (38%),
@@ -52,9 +52,9 @@ Ties: 22 (4%)
 
 **Strategy.MAX_STABLE** (Maximizes stable pieces each turn):
 
-$
+$$
 {\color{green}██████████████████}{\color{red}██}{\color{yellow}}
-$
+$$
 
 Wins: 450 (**90%**),
 Losses: 45 (9%),
